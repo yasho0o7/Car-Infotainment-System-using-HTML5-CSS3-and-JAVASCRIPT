@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Navigation</title>
+    <link rel="icon" href="CSS/GUI/map1.png" type="image/icon type">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <link rel = "stylesheet" type = "text/CSS"  href= "CSS/navigation.css">
+   
+  </head>
+  <span style="float: left"><b>Maps</b></span>
+  <span style="float: right"><button class="btn3" onclick="window.location.href='../../HomePage.html';"><i class="fa fa-home"></i></button></span>
+  <span><i class="fa fa-signal"></i></span>
+<span><i class="fa fa-battery-3"></i></span>
+<span><i class="fa fa-wifi"></i></span>
+<span><i class="fa fa-map-marker"></i></span>
+  <body>
+    <iframe class="compass" src="https://www.google.com/maps/embed?pb=" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <div id="map"></div>
+    <script src="JS/navigation.js"></script>
+     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkTMRAUgc1sZfFwkxH8sFWJ_YL8tl0cQY&callback=initMap">
+    </script>
+  </body>
+</html>

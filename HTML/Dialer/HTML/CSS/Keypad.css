@@ -1,0 +1,147 @@
+ body{
+  background-image: url("GUI/dial1.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 0.9;
+ }
+button.work,input.work, input.big[type=button], input.big[type=reset] {
+  background-color: #5c5c58;
+  border: none;
+  color: white;
+  position: 300px 200px;
+  text-decoration: none;
+  margin: 1px;
+  cursor: pointer;
+  width: 103px;
+  height: 161px;
+}
+button.work:hover, input.work:hover {
+  background-color: #f09a05;
+}
+
+
+  span{
+    color: white;
+  }
+
+
+.btn3{
+         width: 78px;
+         height: 34px;
+         opacity: 0.7;
+         background-color: #555;
+         text-align: center;
+         color: white;
+         font-size: 25px;
+         padding-top: 2px;
+         border: none;
+         cursor: pointer;
+         margin: 4px 2px;
+         border-radius:50%;
+         display: inline-block;
+        }
+
+         input.keypad{
+  text-align: center;
+   width:600px;
+   height:13px;
+   background-color: orange;
+    }
+
+    div.new1 {
+    width: 105px;
+    position: absolute;
+    left: 0px;
+    top: 20px;
+    height: 652px;
+    background: #101012;
+    text-align: center;
+    margin: 5px;
+}
+.fa {
+  color: white;
+}
+
+
+.row {
+  margin: 0 auto;
+  width: 280px;
+  clear: both;
+  text-align: center;
+  font-family: 'Exo';
+}
+
+.digit,
+.dig {
+  float: left;
+  padding: 10px 30px;
+  width: 30px;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #f1f1f1;
+}
+
+.sub {
+  font-size: 0.8rem;
+  color: grey;
+}
+
+.container {
+  background-color: #0f1217;
+  width: 320px;
+  padding: 20px;
+  margin: 30px auto;
+  height: 420px;
+  text-align: center;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  position: relative;
+  top:65px;
+}
+
+#output {
+  font-family: "Exo";
+  font-size: 2rem;
+  height: 60px;
+  font-weight: bold;
+  color: #f1f1f1;
+  border-style: solid;
+  border-color: black;
+  background-color: #909399 
+}
+
+#call {
+  display: inline-block;
+  background-color: #66bb6a;
+  padding: 4px 30px;
+  margin: 10px;
+  color: white;
+  border-radius: 4px;
+  float: left;
+  cursor: pointer;
+}
+
+.botrow {
+  margin: 0 auto;
+  width: 280px;
+  clear: both;
+  text-align: center;
+  font-family: 'Exo';
+}
+
+.digit:active,
+.dig:active {
+  background-color: #e6e6e6;
+}
+
+#call:hover {
+  background-color: #81c784;
+}
+
+.dig {
+  float: left;
+  padding: 10px 20px;
+  margin: 10px;
+  width: 30px;
+  cursor: pointer;
+}

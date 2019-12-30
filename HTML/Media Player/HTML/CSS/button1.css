@@ -1,0 +1,22 @@
+p{
+   font-family: verdana;
+   font-size:25px;
+   background-image: url("GUI/LP.jpg");
+   background-repeat: no-repeat;
+   background-size: stretch;
+   height: 240px;  		
+   background-position: center;
+  }
+	 
+	 h1{
+	 	 color:purple;
+	 	 font-family: Helvetica;
+	 	 font-size: 28px; 
+	 	 text-align: center;
+	 	 color:tomato;
+   	   }  
+
+ body{
+   	   background-color: dodgerblue;
+       color: yellow;
+   	 } 

@@ -1,0 +1,131 @@
+input[type=button], input[type=reset] {
+  background-color: #5c5c58;
+  border: none;
+  color: white;
+  position: 300px 200px;
+  padding: 10px 32px;
+  text-decoration: none;
+  margin: 8px 2px;
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+}
+  
+  span{
+    color: white;
+  }
+
+table, th, td {
+  border: 1px solid black;
+}
+
+   .btn3{
+         width: 78px;
+         height: 34px;
+         opacity: 0.7;
+         background-color: #555;
+         text-align: center;
+         color: white;
+         font-size: 25px;
+         padding-top: 2px;
+         border: none;
+         cursor: pointer;
+         margin: 4px 2px;
+         border-radius:50%;
+         display: inline-block;
+        }
+ 
+ body{
+ 	background-image: url("GUI/dial1.jpeg");
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	background-attachment: fixed;
+ 	opacity: 0.8;
+ }
+
+button.work,input.work, input.big[type=button], input.big[type=reset] {
+  background-color: #5c5c58;
+  border: none;
+  color: white;
+  position: 300px 200px;
+  text-decoration: none;
+  margin: 1px;
+  cursor: pointer;
+  width: 103px;
+  height: 161px;
+}
+ tr.highlight:hover{
+ 	background-color: steelblue;
+ 	color:maroon;
+ }
+
+ input.keypad{
+ 	text-align: center;
+ 	 width:600px;
+ 	 height:13px;
+ 	 background-color: orange;
+ 	  }
+
+button.work:hover, input.work:hover {
+	background-color: #f09a05;
+}
+
+input.work1:hover {
+	background-color: #419c21;
+}
+
+input.work2:hover {
+	background-color: #bd0404;
+}
+
+
+div.new{
+         width: 200px;
+         float:center;
+         height:500px; 
+         text-align: center;
+         margin:1px;
+}
+div.new1 {
+    width: 105px;
+    position: absolute;
+    left: 0px;
+    top: 20px;
+    height: 652px;
+    background: #101012;
+    text-align: center;
+    margin: 5px;
+}
+.fa {
+  color: white;
+}
+
+div.new2 {
+    width: 600px;
+    /* height: 395px; */
+    position: absolute;
+    background: #161716;
+    overflow-y: scroll;
+    left: 400px;
+    top: 166px;
+    height: 293px;
+    text-align: center;
+}
+
+div.new3 {
+    width: 602px;
+    height: 165px;
+    background:#161716;
+    margin: 1px;
+    color: #f1f1f1;
+    overflow-y: scroll;
+    font-size: 24px;
+    color: #00FFFF;
+}
+div {
+    color: hotpink;
+    font-size: 24px;
+    text-align: center;
+    padding: 
+}
+

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Recents</title>
+ <link rel="stylesheet" type="text/css" href="CSS/Recent.css">	
+</head>
+<link rel="icon" href="CSS/GUI/dial.jpg" type="image/icon type">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script type="text/javascript" src="JS/Recent.js"></script>
+<span style="float: right"><button class="btn3" onclick="window.location.href='../../HomePage.html';"><i class="fa fa-home"></i></button></span>
+<span><b>Dialer</b></span>
+<span><i class="fa fa-signal"></i></span>
+<span><i class="fa fa-battery-3"></i></span>
+<span><i class="fa fa-wifi"></i></span>
+<body>
+<div class="new" >
+</div>
+<div class="new1">
+<button class="work" onclick="window.location.href='Recent.html';">Recent</button> 
+ <button class="work" onclick="window.location.href='calllist.html';">Contact</button>
+ <button class="work" onclick="window.location.href='keypad.html';">Keypad</button>
+ <button class="work" onclick="window.location.href='Message.html';">Message</button>
+</div>
+<div class="new2">
+<input class="keypad" type="text"  id="myText" name="firstname" value="Select A Contact">
+<div> 
+ <table style="width:100%">
+ <td>Name</td>
+ <td>Category</td>
+ <td>Contact</td>
+ </table>
+ </div> 
+<div class="new3">
+<table style="width:100%" >
+  <tr class="highlight">
+    <td style="text-align: center;">Priyanka</td>
+    <td>Home</td>
+    <td id="8123813718" onclick="callNumber(this.id)">8123813718</td>
+  </tr>
+  <tr class="highlight">
+    <td>Shalin</td>
+    <td>Work</td>
+    <td id="123712325" onclick="callNumber(this.id)">123712325</td>
+    
+  </tr>
+  <tr class="highlight">
+    <td>Harsh</td>
+    <td>Family</td>
+    <td id="123712366" onclick="callNumber(this.id)">123712366</td>
+    
+  </tr>
+    <tr class="highlight">
+    <td>Shreya</td>
+     <td>Friend</td>
+    <td id="123712366" onclick="callNumber(this.id)">123712366</td>
+   
+  </tr>
+    <tr class="highlight">
+    <td>Dion</td>
+     <td>Family</td>
+    <td id="8123813718" onclick="callNumber(this.id)">8123813718</td>
+   
+  </tr>
+  <tr class="highlight">
+    <td>Saloni</td>
+    <td>Work</td>
+    <td id="123712325" onclick="callNumber(this.id)">123712325</td>
+    
+  </tr>
+  <tr class="highlight">
+    <td>Rahul</td>
+    <td>Home</td>
+    <td id="123712366" onclick="callNumber(this.id)">123712366</td>
+   
+  </tr>
+    <tr class="highlight">
+    <td>Smith</td>
+    <td>Friend</td>
+    <td id="123712366" onclick="callNumber(this.id)">123712366</td>   
+  </tr>
+    <tr class="highlight">
+    <td>Manan</td>
+    <td>Home</td>
+    <td id="8123813718" onclick="callNumber(this.id)">8123813718</td>
+  </tr>
+</table>
+</div>
+<input  type="button" id="button1" value="Call" onclick = "OpenPopup()">
+<input  type="reset" id="button2" value="Cancel" onclick = "clearNumber()">
+</div>
+</body>
+</html>

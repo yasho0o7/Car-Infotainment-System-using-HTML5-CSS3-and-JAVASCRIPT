@@ -1,0 +1,46 @@
+   
+      
+  body{
+	    font-family: Helvetica;
+	    font-size: 24px;
+	    background-color: mediumseagreen;
+	   }
+
+
+  div{
+      background-color: tomato;
+	  color: dodgerblue;
+	  text-align: center;
+	  background-image: url("GUI/LP.jpg");
+      background-repeat: no-repeat;
+	  background-position: center center;
+	  width: 600px;
+      border: 15px solid yellow;
+      padding: 65px;
+      margin: 200px;
+   	}
+	 
+
+  h1{
+      font-family: Verdana;	  
+	  margin-top: 30px;
+	  margin-bottom: 10px;
+	  color: white;
+	  border-style: dashed;	
+    }
+
+
+  h3{
+  	   font-family: arial;
+  	   font-size: 48px;
+  	   color: purple;
+  	   text-align: center;
+    }
+
+
+   p{
+     text-align: right;
+     font-family: courier;
+     font-size: 20px;
+     color: black;
+   }

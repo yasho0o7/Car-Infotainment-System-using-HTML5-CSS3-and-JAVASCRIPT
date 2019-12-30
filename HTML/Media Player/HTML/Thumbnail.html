@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head><link rel="stylesheet" type="text/css" href="CSS/audio.css">
+    <title>Media Player</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src = "JS/audio.js"></script>	
+   <meta name="viewport" content="width=device-width, initial-scale=1"> 	
+</head>
+<link rel="icon" href="CSS/GUI/music-icon1.png" type="image/icon type">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<span style="float: left">Music Player</span>
+<span style="float: right"><button class="btn3" onclick="window.location.href='../../HomePage.html';"><i class="fa fa-home"></i></button></span>
+
+<body>
+
+	 
+   <div class="new1">
+   <h2> <b>My Playlist</b></h2> 
+   </div>
+   <div class="new3"> 
+   <table style="width:100%">   
+    <tr>
+    <th> No. </th>
+    <th> Song Name </th>
+    <th> Singer Name </th> 
+    <th> Duration </th>
+  </tr>
+</table>
+ </div>
+    <div class="new2" style="overflow-y: scroll;">
+     <table> 
+    <tr> 	
+    <td>1)</td>
+    <td id = "music1.mp3" onclick="selectSong(this.id)"> Come And Get Your Love  </td>
+    <td id= "old" onclick="showImage(this.id)"/> Redbone </td> 
+    <td> 3:29 mins </td>
+  </tr> 
+   <tr>
+    <td>2)</td>
+    <td id = "music2.mp3" onclick="selectSong(this.id)"> Saansein </td>
+    <td> Prateek Kuhad </td> 
+    <td> 4:45 mins </td>
+  </tr> 
+  <tr>
+    <td>3)</td>
+    <td id = "music3.mp3" onclick="selectSong(this.id)"> (I just) Died In Your Arms </td>
+    <td> Cutting Crew </td> 
+    <td> 4:28 mins </td>
+  </tr> 
+  <tr>
+    <td>4)</td>
+    <td id = "music4.mp3" onclick="selectSong(this.id)"> The Prophets </td>
+    <td> A.C. Newman </td> 
+    <td> 2:58 mins </td>
+  </tr> 
+   <tr>
+    <td>5)</td>
+    <td id = "music5.mp3" onclick="selectSong(this.id)"> On My Way </td>
+    <td> Alan Walker </td> 
+    <td> 3:13 mins </td>
+  </tr> 
+  <tr>
+    <td>6)</td>
+    <td id = "music6.mp3" onclick="selectSong(this.id)"> Bezubaan </td>
+    <td> Vishal Dadlani</td> 
+    <td> 5:41 mins </td>
+  </tr> 
+  <tr>
+    <td>7)</td>
+    <td id = "music7.mp3" onclick="selectSong(this.id)"> In This Place  </td>
+    <td> Julia Michaels </td> 
+    <td> 3:31 mins </td>
+  </tr> 
+   <tr>
+    <td>8)</td>
+    <td id = "music8.mp3" onclick="selectSong(this.id)"> Dil Chahta Hai </td>
+    <td> Shankar Mahadevan </td> 
+    <td> 4:16 mins </td>
+  </tr> 
+  <tr>
+    <td>9)</td>
+    <td id = "music9.mp3" onclick="selectSong(this.id)"> The Funeral </td>
+    <td> The Band Of Horses </td> 
+    <td> 5:26 mins </td>
+  </tr> 
+</table>
+</div> 
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <img></img>
+    <div style="width:400px; margin:auto; position:relative;">   
+ <audio controls style="width:100%;" autoplay src="music2.mp3" type = "audio/mpeg"> Your browser does not support the audio element.</audio>
+ <button class="btn1" onclick="playPrevious()" type= "button"><i class="fa fa-step-backward"></i></button>
+ <button class="btn"  type="button"><i onclick="myFunction(this)" class="fa fa-play"></i></button>
+ <button class="btn2" onclick="playNext()" type="button"><i class="fa fa-step-forward"></i></button>
+ </div>
+</body>
+</html>
